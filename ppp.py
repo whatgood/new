@@ -1,5 +1,6 @@
 import tesserocr
 import os
+image time
 from PIL import Image
 image=Image.open('test5.png')
 image=image.convert("L")
