@@ -1,4 +1,5 @@
 import tesserocr
+import os
 from PIL import Image
 image=Image.open('test5.png')
 image=image.convert("L")
